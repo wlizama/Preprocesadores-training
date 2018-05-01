@@ -1,0 +1,8 @@
+$color : red !default;
+$color2 : yellow !default;
+$color3 : green !default;
+
+.div{
+  background-color : $color;
+  color : $color2
+}
