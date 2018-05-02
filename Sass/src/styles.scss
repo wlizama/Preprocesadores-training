@@ -1,5 +1,6 @@
 // Librerias, settings y variables
 @import 'lib/_variables.scss';
+@import 'lib/_mixins.scss';
 
 // Elementos base
 @import 'base/_botones.scss';
@@ -7,6 +8,9 @@
 
 // Components
 @import 'components/_grids.scss';
+
+// Layout
+@import 'layout/_layout';
 
 // Esto va de último
 @import 'components/_utilities.scss';

@@ -2,6 +2,9 @@
 * $VARIABLES
 \*******************/
 /*******************\
+* $MIXINS
+\*******************/
+/*******************\
 * $BOTONES
 \*******************/
 .btn {
@@ -22,6 +25,28 @@
 /*******************\
 * $GRIDS
 \*******************/
+/*******************\
+* $LAYOUT
+\*******************/
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #bfbfbf; }
+
+.section2 {
+  background-color: blue; }
+  @media only screen and (min-width: 800px) {
+    .section2 {
+      background-color: red; } }
+
+.max-width--huge {
+  max-width: 80%;
+  margin: 0 auto; }
+
+header {
+  background-color: #ea83ee; }
+
 /*******************\
 * $UTILITIES
 \*******************/
