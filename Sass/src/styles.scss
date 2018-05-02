@@ -1,0 +1,12 @@
+// Librerias, settings y variables
+@import 'lib/_variables.scss';
+
+// Elementos base
+@import 'base/_botones.scss';
+@import 'base/_tipografia.scss';
+
+// Components
+@import 'components/_grids.scss';
+
+// Esto va de último
+@import 'components/_utilities.scss';
