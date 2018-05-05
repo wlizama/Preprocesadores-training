@@ -1,2 +1,12 @@
 body
   background: #1E6BD7
+  
+.pseudo-element
+  width 300px
+
+  &:before
+    content ':)'
+  
+  .ie-8 &
+    &:before
+      content ':('
