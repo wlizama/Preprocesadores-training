@@ -1,0 +1,87 @@
+.btn
+  display inline-block
+  width auto
+  line-height2.5
+  color buttoncolor
+  text-align center
+  vertical-align middle
+  white-space nowrap
+  background-color buttonbackground
+  cursor pointer
+  margin-left 0
+  margin-top 0
+  margin-right 0
+  margin-bottom 0
+  padding-top 0
+  padding-bottom 0
+  padding-right 2.2em
+  padding-left 2.2em
+  text-transform uppercase
+  text-decoration none
+  font-size basefontsize 
+  font-weight bold
+  letter-spacing .05em
+  border-radius0
+  transition all .2s ease-in
+  border none
+  &:hover
+    text-decoration none
+    color white
+    background-colorcolor-brand
+    cursor pointer
+
+  &:active,
+  &:focus
+    outline: none
+
+  /*
+  ** Secondary buttons
+  */
+
+  &.btn--secondary
+    background-color white
+    colorcolor-brand
+    &:hover
+      background-colorcolor-brand
+      color: white
+
+  /*
+  ** Disable buttons
+  */
+  
+  &.btn--disable
+    cursor not-allowed
+    background-color grey
+    color white
+    border-color gray
+    &.:visited
+      background-color grey
+      color: grey
+
+    &:hover
+      cursor not-allowed
+      color white
+      background-color grey
+      border-color darken(grey, 10)
+
+  /*
+  ** Error buttons
+  */
+  
+  &.btn--error, .btn--error:visited
+    colorcolor-error
+    border-color lightgray
+    &:hover
+      background-colorcolor-error
+      color white
+
+  /*
+  ** Warning buttons
+  */
+
+  &.btn--info, btn--info:visited
+    colorcolor-brand
+    border-colorcolor-brand
+    &:hover
+      background-colorcolor-brand
+      color white

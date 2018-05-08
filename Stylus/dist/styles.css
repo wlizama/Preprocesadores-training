@@ -1,0 +1,130 @@
+html {
+  background: color-backgroud;
+  font-size: 87.5%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: transparent;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  color: color-blank;
+}
+.block {
+  max-width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+  background-color: #fff;
+  position: relative;
+}
+.block__body {
+  padding: 24px;
+  background-color: #fff;
+  position: relative;
+}
+.block_title {
+  background-color: #fff;
+  padding: 24px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #dbd879;
+  border-bottom: 1px solid #bfbfbf;
+}
+.btn {
+  display: inline-block;
+  width: auto;
+  line-height2: 0.5;
+  color: buttoncolor;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: buttonbackground;
+  cursor: pointer;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 2.2em;
+  padding-left: 2.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+border-radius0
+  transition: all 0.2s ease-in;
+  border: none;
+/*
+  ** Secondary buttons
+  */
+/*
+  ** Disable buttons
+  */
+/*
+  ** Error buttons
+  */
+/*
+  ** Warning buttons
+  */
+}
+.btn:hover {
+  text-decoration: none;
+  color: #fff;
+background-colorcolor-brand
+  cursor: pointer;
+}
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+.btn.btn--secondary {
+  background-color: #fff;
+}
+.btn.btn--secondary colorcolor-brand,
+.btn.btn--secondary:hover {
+background-colorcolor-brand
+  color: #fff;
+}
+.btn.btn--disable {
+  cursor: not-allowed;
+  background-color: #808080;
+  color: #fff;
+  border-color: #808080;
+}
+.btn.btn--disable.:visited {
+  background-color: #808080;
+  color: #808080;
+}
+.btn.btn--disable:hover {
+  cursor: not-allowed;
+  color: #fff;
+  background-color: #808080;
+  border-color: #676767;
+}
+.btn.btn--error,
+.btn .btn--error:visited {
+colorcolor-error
+  border-color: #d3d3d3;
+}
+.btn.btn--error:hover,
+.btn .btn--error:visited:hover {
+background-colorcolor-error
+  color: #fff;
+}
+.btn.btn--info colorcolor-brand,
+.btn btn--info:visited colorcolor-brand,
+.btn.btn--info border-colorcolor-brand,
+.btn btn--info:visited border-colorcolor-brand,
+.btn.btn--info:hover,
+.btn btn--info:visited:hover {
+background-colorcolor-brand
+  color: #fff;
+}
