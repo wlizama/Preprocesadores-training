@@ -3,6 +3,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var stylus = require('gulp-stylus');
+var less = require('gulp-less');
 
 
 // SASS tasks
@@ -26,4 +27,16 @@ gulp.task('stylus', function () {
 
 gulp.task('stylus:watch', function () {
   gulp.watch('./Stylus/src/*.styl', ['stylus']);
+});
+
+
+// Less tasks
+gulp.task('less', function () {
+  return gulp.src('./Less/src/*.less')
+    .pipe(less())
+    .pipe(gulp.dest('./Less/dist'));
+});
+
+gulp.task('less:watch', function () {
+  gulp.watch('./Less/src/*.less', ['less']);
 });
