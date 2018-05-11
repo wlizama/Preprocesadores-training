@@ -1,7 +1,16 @@
-@nice-blue: #5B83AD;
-@light-blue: @nice-blue + #111;
+// Librerias, settings y variables
+@import 'lib/_variables.less';
+@import 'lib/_mixins.less';
 
-#header {
-  color: @light-blue;
-  background: @nice-blue
-}
+// Elementos base
+@import 'base/_botones.less';
+@import 'base/_tipografia.less';
+
+// Components
+@import 'components/_grids.less';
+
+// Layout
+@import 'layout/_layout.less';
+
+// Esto va de último
+@import 'components/_utilities.less';

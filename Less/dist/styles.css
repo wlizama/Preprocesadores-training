@@ -1,4 +1,38 @@
-#header {
-  color: #6c94be;
-  background: #5B83AD;
+/*******************\
+* @VARIABLES
+\*******************/
+/*******************\
+* @MIXINS
+\*******************/
+.btn {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #ea83ee;
+  line-height: 2.5;
+  border-radius: 3px;
+  font-size: 24px;
+}
+.btn .btn__icon {
+  font-size: .6em;
+}
+.btn .btn--info {
+  background-color: #4268dd;
+}
+/*******************\
+* $TIPOGRAFIA
+\*******************/
+/*******************\
+* $GRIDS
+\*******************/
+/*******************\
+* $LAYOUT
+\*******************/
+header {
+  background-color: #ea83ee;
+}
+/*******************\
+* @UTILITIES
+\*******************/
+.align-right {
+  text-align: right;
 }
